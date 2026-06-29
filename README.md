@@ -92,5 +92,11 @@ Accessed website using CloudFront domain URL.
 
 ### Website Homepage
 
-![Website Homepage](screenshots/website-homepage.png)
+![Website Homepage](screenshots/website-homepage.png)  
+
+## Project Outcome
+-Successfully hosted my resume on EC2  
+-Configured Nginx web server on Amazon Linux  
+-Integrated CloudFront for CDN + HTTPS  
+-Improved website performance and security  
 
