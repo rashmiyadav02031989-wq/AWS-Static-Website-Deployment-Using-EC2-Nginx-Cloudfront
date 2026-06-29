@@ -74,13 +74,6 @@ Accessed website using CloudFront domain URL.
 
 ## Screenshots:    
 
-
-
-
-Website files in /usr/share/nginx/html/
-Website via EC2 Public IP
-CloudFront Distribution Dashboard
-Final Website via CloudFront URL
 ### EC2 Instance Running 
 
 ![EC2-Instance](ec2-instance-running.PNG)
