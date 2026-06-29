@@ -3,8 +3,8 @@
 ## Project Overview
 This project demonstrates hosting a personal resume website using AWS EC2 with Nginx as a web server and CloudFront for secure global content delivery (HTTPS + CDN optimization).
 
-## 🛠️ Tech Stack
-- AWS EC2 (Ubuntu)
+## Tech Stack
+- AWS EC2 (Amazon Linux)
 - Nginx Web Server
 - AWS CloudFront (CDN)
 - HTML, CSS (Static Resume Website)
