@@ -76,21 +76,21 @@ Accessed website using CloudFront domain URL.
 
 ### EC2 Instance Running 
 
-![EC2-Instance](ec2-running-status.jpeg)
+![EC2-Instance](screenshots/ec2-running-status.jpeg)
 
 ### Security Group Configuration
 
-![Security Group Configuration](ec2-security-group.jpeg)
+![Security Group Configuration](screenshots/ec2-security-group.jpeg)
 
 ### Nginx Service Running
 
-![Nginx Service Running](nginx-service-running.png)
+![Nginx Service Running](screenshots/nginx-service-running.png)
 
 ### SSH Connection to EC2
 
-![SSH Connection to EC2](SSH-connection-to-EC2.jpeg)
+![SSH Connection to EC2](screenshots/SSH-connection-to-EC2.jpeg)
 
 ### Website Homepage
 
-![Website Homepage](website-homepage.png)
+![Website Homepage](screenshots/website-homepage.png)
 
