@@ -88,7 +88,7 @@ Accessed website using CloudFront domain URL.
 
 ### SSH Connection to EC2
 
-![SSH Connection to EC2](screenshots/SSH-connection-to-EC2.jpeg)
+![SSH Connection to EC2](screenshots/SSH-connection-to-ec2.jpeg)
 
 ### Website Homepage
 
