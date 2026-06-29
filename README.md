@@ -12,31 +12,30 @@ This project demonstrates hosting a personal resume website using AWS EC2 with N
 ## Architecture
 ```mermaid
 flowchart TD
-
     U[User Browser]
 
-    CF[CloudFront Distribution<br/>CDN + HTTPS]
+    CF[CloudFront Distribution<br/>HTTPS + Caching]
 
-    EC2[EC2 Instance<br/>Ubuntu Server]
+    EC2[EC2 Instance]
 
-    NGINX[Nginx Web Server<br/>Serves Static Resume]
+    N[Nginx Web Server]
 
-    FS[File System<br/>/var/www/html<br/>index.html + assets]
+    DIR[/usr/share/nginx/html/]
 
-    SG[Security Group<br/>Allow HTTP/HTTPS]
+    HTML[index.html]
+
 
     U --> CF
     CF --> EC2
-    EC2 --> NGINX
-    NGINX --> FS
+    EC2 --> N
+    N --> DIR
 
-    EC2 -. Protected by .-> SG
+    DIR --> HTML
+    DIR --> CSS
+    DIR --> JS
+    DIR --> IMG
 
-    FS -. stores .-> HTML[index.html]
-    FS -. stores .-> CSS[style.css]
-    FS -. stores .-> IMG[images/assets]
-
-    CF -. caches .-> EC2
+    CF -. Origin Request .-> EC2
 ```
 
 
