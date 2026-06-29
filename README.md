@@ -72,7 +72,31 @@ Accessed website using CloudFront domain URL.
 -Use SSH key-based authentication only, protect .pem file  
 -Enable HTTPS via CloudFront and force HTTP → HTTPS redirect  
 
-## Screenshots:     
+## Screenshots:    
+
+
+SSH Connection to EC2
+Nginx Service Running
+Website files in /usr/share/nginx/html/
+Website via EC2 Public IP
+CloudFront Distribution Dashboard
+Final Website via CloudFront URL
+### EC2 Instance Running 
+
+![EC2-Instance](ec2-instance-running.PNG)
+
+### Security Group Configuration
+
+![Security Group Configuration](security-group-configuration.PNG)
+
+### Website Homepage
+
+![Website Homepage](website-homepage.PNG)
+
+### Website Homepage
+
+![Website Homepage](website-homepage.PNG)
+
 ### Website Homepage
 
 ![Website Homepage](website-homepage.PNG)
