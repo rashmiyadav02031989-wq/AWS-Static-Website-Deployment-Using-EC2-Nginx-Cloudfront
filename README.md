@@ -71,3 +71,9 @@ Accessed website using CloudFront domain URL.
 -Disable Nginx directory listing and hide server version  
 -Use SSH key-based authentication only, protect .pem file  
 -Enable HTTPS via CloudFront and force HTTP → HTTPS redirect  
+
+## Screenshots:     
+### Website Homepage
+
+![Website Homepage](website-homepage.PNG)
+
