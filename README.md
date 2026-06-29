@@ -37,16 +37,15 @@ flowchart TD
 
 
 
-## ⚙️ Features
+## Features
 - Deployed static resume website on EC2
 - Configured Nginx for serving static files
 - Enabled HTTPS access via CloudFront
-- Optimized global content delivery using CDN
 - Secure and scalable hosting setup
 
-## 📂 Deployment Steps
-1. Launch EC2 instance (Ubuntu)
-2. Install Nginx:
+## Deployment Steps
+**Step 1:** Launch EC2 instance
+**Step 2:** Install Nginx:
    ```bash
-   sudo apt update
-   sudo apt install nginx -y
+   sudo dnf update
+   sudo dnf install nginx -y
