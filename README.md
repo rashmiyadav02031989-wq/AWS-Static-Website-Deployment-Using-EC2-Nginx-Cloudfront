@@ -44,8 +44,9 @@ flowchart TD
 - Secure and scalable hosting setup
 
 ## Deployment Steps
-**Step 1:** Launch EC2 instance
-**Step 2:** Install Nginx:
+**Step 1:** Launch EC2 instance. 
+**Step 2:** Connect to EC2:  
+ssh -i key.pem ec2-user@<EC2-PUBLIC-IP>
    ```bash
    sudo dnf update
    sudo dnf install nginx -y
