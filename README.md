@@ -48,7 +48,7 @@ flowchart TD
 Create instance (Amazon Linux 2/2023)    
 Allow HTTP (80) and SSH (22) in Security Group    
 **Step 2:** Install & Start Nginx  
-Installed Nginx on Amazon Linux using yum.  
+Installed Nginx on Amazon Linux using dnf.  
 Started and enabled Nginx service.    
 **Step 3:** Deploy Website Files  
 Navigated to /usr/share/nginx/html/ directory.  
