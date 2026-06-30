@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashmi Yadav</title>
+    <style>
+        :root {
+            --bg-color: #f4f7f6;
+            --container-bg: #ffffff;
+            --text-main: #333333;
+            --text-muted: #666666;
+            --accent-color: #0da2b8;
+            --border-color: #e0e0e0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --container-bg: #1e1e1e;
+                --text-main: #e0e0e0;
+                --text-muted: #a0a0a0;
+                --accent-color: #14b8a6;
+                --border-color: #333333;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--container-bg);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            line-height: 1.1;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .contact-info {
+            text-align: right;
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: blue;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 0.2rem;
+        }
+
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.25rem;
+        }
+
+        .job, .education-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            flex-wrap: wrap;
+        }
+
+        .company, .school {
+            color: var(--text-main);
+        }
+
+        .date {
+            color: var(--text-muted);
+            font-weight: normal;
+        }
+
+        .role {
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 1.25rem;
+            color: var(--text-muted);
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .skill-tag {
+            background: var(--bg-color);
+            padding: 0.5rem;
+            text-align: center;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .contact-info {
+                text-align: center;
+                width: 100%;
+            }
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER SECTION -->
+        <header>
+            <div>
+                <h1>Rashmi Yadav</h1>
+                <div class="subtitle"></div>
+            </div>
+            <div class="contact-info">
+                <a style="text-decoration: none; color: black">
+							rashmi_bhosale_89@yahoo.com</a>
+                <a style="text-decoration: none; color: black">+1 (346) 588 0648</a>
+                <a href="https://www.linkedin.com/in/rashmi-yadav-136413398" >LinkedIn</a>
+                <a href="https://github.com/rashmiyadav02031989-wq">GitHub</a>
+
+
+</a>
+		
+            </div>
+        </header>
+
+        <!-- SUMMARY SECTION -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Highly motivated and hardworking individual looking for a responsible role in a
+reputed organization where I can upgrade my skills over time and take the
+organization to the next level.</p>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section>
+            <h2>Work Experience</h2>
+            
+            <div class="job">
+                <div class="row">
+                    <span class="company">Government Polytechnique, Solapur</span>
+                    <span class="date"> Jan 2012 – Nov 2012</span>
+                </div>
+
+
+                <div class="role">Guest Lecturer</div>
+                <ul>
+                    <li>Taught programming languages like Java and VB</li>
+                    <li>Coducted practical sessions of Java and VB</li>
+                    
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="row">
+                    <span class="company">ePRoSOFT Technologies Solapur</span>
+                    <span class="date">Aug 2011 – Nov 2011</span>
+                </div>
+                <div class="role">Software Developer</div>
+					Developed software applications using Java and PHP
+                <ul>
+                    <li>Mini-Facebook for college (JSP and MySQL)</li>
+                    <li>College Voting System (Java and MS-Access)</li>
+							<li>Shopping Cart (PHP)</li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <!-- EDUCATION SECTION -->
+        <section>
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="row">
+                    <span class="school">University of Pune</span>
+                    <span class="date">Post Graduated 2016</span>
+                </div>
+                <div class="role">Master of Engineering in Computer Engineering</div>
+            </div>
+				
+				<div class="education-item">
+                <div class="row">
+                    <span class="school">University of Solapur</span>
+                    <span class="date">Graduated 2011</span>
+                </div>
+                <div class="role">Bachelor of Engineering in Information Technology</div>
+            </div>
+
+
+        </section>
+
+
+<!-- Academic Projects -->
+        <section>
+            <h2>Academic Projects</h2>
+            <div class="education-item">
+                <div class="row">
+                    <span class="school">Master's Degree Project</span>
+                    
+                </div>
+                <div class="role">Web Scraper Using Selectors</div>
+						<ul>
+						WSUS displays user requested page in browser and generates DOM tree
+for that page. It extracts data from user selected section by generating
+pattern and stores in a file.
+						
+						</ul>
+            </div>
+				
+				<div class="education-item">
+                <div class="row">
+                    <span class="school">Bachelor's Degree Project</span>
+   
+                </div>
+                <div class="role">Platform As A Service(Cloud Computing)</div>
+					<ul>
+We provided a platform where users can develop and deploy web
+applications using PHP, JSP and ASP.Net.
+</ul>
+            </div>
+
+
+        </section>
+
+
+<!-- Certification -->
+        <section>
+            <h2>Certification</h2>
+            <div class="education-item">
+                <div class="row">
+                    <ul>
+								<li><span class="school">AWS Cloud Practitioner (CLF- 02) – Nov 2025</span><br>
+                    <span class="date">Completed a certification course on Cloud Computing from AWS</span><br>
+
+</li>
+								<li><span class="school">AWS Well Architected Foundations</span><br>
+<span class="date">Completed a course on AWS Well Architected Foundations</span></li>
+								<li><span class="school">Introduction to Building with AWS Databases</span><br>
+<span class="date">Completed a course on Introduction to Building with AWS Databases</span></li>
+								<li><span class="school">AWS Technical Essentials</span><br>
+<span class="date">Completed a course on AWS Technical Essentials</span></li>
+							</ul>
+                </div>
+    
+            </div>
+				
+				
+
+        </section>
+
+<!-- AWS Projects-->
+        <section>
+            <h2>AWS Projects</h2>
+            <div class="education-item">
+                <div class="row">
+                    <span class="school">Static Website Hosting On AWS</span>
+                    
+                </div>
+                <ul>
+							<li> Hosted a static website using Amazon S3 with no public access.
+<li>Integrated CloudFront with OAC ensuring HTTPS only access.</li>
+<li><a href="https://github.com/rashmiyadav02031989-wq/AWS-Static-Website-Hosting-CloudFront-Private-S3">GitHub Repo</a></li>
+<li><a href="https://d2zd01bqnjh8ww.cloudfront.net/index.html">Live Demo</a></li>
+						</ul>
+            </div>
+				
+				<div class="education-item">
+                <div class="row">
+                    <span class="school">Serverless File Manager</span>
+                    
+                </div>
+                <ul>
+							<li> Hosted static website on amazon S3 and user accesses the web page
+via CloudFront
+<li>HTTP API Gateway to handle requests and AWS Lambda to generate
+presigned URL</li>
+<li>Securely uploads, lists, download and delete files to and from S3 bucket</li>
+<li><a href="https://github.com/rashmiyadav02031989-wq/AWS-Serverless-File-Manager">GitHub Repo</a></li>
+<li><a href="http://d2mcqzazk2s82c.cloudfront.net/index.html">Live Demo</a></li>
+						</ul>
+            </div>
+
+<div class="education-item">
+                <div class="row">
+                    <span class="school">Hosting My Resume Website Using EC2 + Nginx</span>
+                    
+                </div>
+                <ul>
+							<li> Deployed personal resume website on EC2 made it accessible via
+CloudFront distribution for secure and faster delivery
+<li>Configured and managed web server using Nginx</li>
+<li>Established secure remote access to instance via SSH using Termius
+for server management and deployment</li>
+<li><a href="https://github.com/rashmiyadav02031989-wq/AWS-Resume-Website-Deployment-Using-EC2-Nginx-Cloudfront">GitHub Repo</a></li>
+<li><a href="https://d11ogyl18my2pa.cloudfront.net/index.html">Live Demo</a></li>
+						</ul>
+            </div>
+
+<div class="education-item">
+                <div class="row">
+                    <span class="school">Serverless Automatic Thumbnail Generation</span>
+                    
+                </div>
+                <ul>
+							<li> User securely uploads an image to S3 bucket through static website
+using a presigned URL from Lambda.
+<li>S3 event notification triggers Lambda automatically which generates
+thumbnail of that image and store in S3 bucket.</li>
+<li>Frontend checks thumbnail status using same Lambda(Generate
+Presigned URL) and notifies user when processing is complete.</li>
+<li>CloudFront delivers the website securely over HTTPS</li>
+<li><a href="https://github.com/rashmiyadav02031989-wq/AWS-Serverless-Thumbnail-Generator">GitHub Repo</a></li>
+<li><a href="http://d3jz92rqxfc0ch.cloudfront.net/index.html">Live Demo</a></li>
+						</ul>
+            </div>
+
+
+<div class="education-item">
+                <div class="row">
+                    <span class="school">Serverless ToDoTasks App</span>
+                    
+                </div>
+                <ul>
+							<li> Hosted the app on S3 and used CloudFront to deliver app securely over HTTPS.
+<li>Implemented CRUD operations and integrated them with JavaScript
+frontend</li>
+<li>Designed DynamoDB table to store and manage tasks. </li>
+
+<li><a href="https://github.com/rashmiyadav02031989-wq/AWS-Serverless-ToDoTasks-App">GitHub Repo</a></li>
+<li><a href="https://d1qndpa3zvn6sg.cloudfront.net/index.html">Live Demo</a></li>
+						</ul>
+            </div>
+
+       </section>
+
+<!-- Personal Details -->
+        <section>
+            <h2>Personal Details</h2>
+            <ul>
+					<li>Date of Birth : 06/02/1989</li>
+					<li>Passport No.  : X9257578</li>
+					<li>VISA Type     &nbsp;&nbsp;&nbsp;&nbsp;: L2S</li>
+					<li>VISA Validity : 01/18/2029</li>
+					<li>Marital Status: Married</li>
+				</ul>
+                
+        </section>
+
+
+    </div>
+
+</body>
+</html>
