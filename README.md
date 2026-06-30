@@ -116,13 +116,11 @@ AWS-Resume-Website-Deployment-Using-EC2-Nginx-Cloudfront/
 ├── index.html
 │
 ├── screenshots/
-│   ├── ec2-instance.png
-│   ├── security-group.png
-│   ├── ssh-connection.png
-│   ├── nginx-running.png
-│   ├── ec2-website.png
-│   ├── cloudfront-dashboard.png
-│   └── cloudfront-website.png
+│   ├── SSH-connection-to-ec2.jpeg
+│   ├── ec2-running-status.jpeg
+│   ├── ec2-security-group.jpeg
+│   ├── nginx-service-running.png
+│   ├── website-homepage.png
 ── README.md
 
 
